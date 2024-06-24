@@ -37,7 +37,7 @@ export default function Introduce() {
 				className="max-w-[580px] break-keep pb-8 text-xl"
 				variants={FadeUp}
 			>
-				현재는 프론트엔드 기술을 중심으로 심층적인 학습을 진행 중이며, 이를
+				(test)현재는 프론트엔드 기술을 중심으로 심층적인 학습을 진행 중이며, 이를
 				토대로 사용자에게 먼저 다가갈 수 있는 웹사이트의 프론트엔드 부분을
 				담당하고 있습니다. 제 웹 포트폴리오를 방문해 주셔서 진심으로
 				감사드립니다.

@@ -16,9 +16,6 @@ export default function SideSocial() {
 				<a href={Links.github} target="_blank">
 					<GitHubIcon />
 				</a>
-				<a href={Links.gitlab} target="_blank">
-					<GitlabIcon />
-				</a>
 				<div className="h-[120px] w-[1px] bg-light-slate"></div>
 			</div>
 		</motion.div>

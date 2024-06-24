@@ -16,7 +16,7 @@ export default function SideEmail() {
 					href="mailto:xxxxx@gmail.com"
 					className="text-base tracking-widest vertical-rl hover:-translate-y-2"
 				>
-					kwls0407@gmail.com
+					bjihun0511@gmail.com
 				</a>
 				<div className="h-[120px] w-[1px] bg-light-slate"></div>
 			</div>

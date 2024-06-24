@@ -7,9 +7,9 @@ import { FadeUp } from '@/constant/framer-motion';
 import { Links } from '@/constant/link';
 
 const ICONLIST = [
-	{ link: Links.tstory, ICON: <BlogIcon size={30} /> },
+
 	{ link: Links.github, ICON: <GitHubIcon size={30} /> },
-	{ link: Links.gitlab, ICON: <GitlabIcon size={30} /> },
+	
 ];
 
 export default function Introduce() {

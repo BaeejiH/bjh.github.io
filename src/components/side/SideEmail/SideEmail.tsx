@@ -13,7 +13,7 @@ export default function SideEmail() {
 		>
 			<div className="flex flex-col items-center gap-4">
 				<a
-					href="mailto:kwls0407@gmail.com"
+					href="mailto:xxxxx@gmail.com"
 					className="text-base tracking-widest vertical-rl hover:-translate-y-2"
 				>
 					kwls0407@gmail.com

@@ -36,14 +36,13 @@ const SUB_PROJECTS: SubProject[] = [
 				target="_blank"
 				className="static before:absolute before:left-0 before:top-0 before:z-0 before:h-full before:w-full before:content-['']"
 			>
-				원티드 프론트엔드 인턴십
+				Diary Project
 			</a>
 		),
 		links: { git: 'https://github.com/wanted-pre-onboarding-internship-1team' },
-		description: `원티드에서 주관하는 프론트엔드 인턴십 교육입니다.<br>
-    4주 동안 4개의 과제를 하여 프론트엔드 팀원들과 협업하여 진행하는 방식으로
-		과제를 수행했습니다.`,
-		skills: ['React'],
+		description: `자바를 배우고 난 뒤에 처음 구현해본 프로젝트입니다. jsp를 통해서 달력을 만들었고,
+		달력에 필요한 Css를 부트스트랩을 통해 구현해 보았습니다 .`,
+		skills: ['Java'],
 	},
 ];
 

@@ -8,14 +8,10 @@ import { SectionID } from '@/constant/sectionId';
 
 const PROJECT_DATA: Project[] = [
 	{
-		title: 'Emmerce',
+		title: 'Final 프로젝트',
 		date: '2023.10.16 ~ 2024.01.05',
 		serviceMaintain: '',
-		description: `Next.js를 이용한 쇼핑몰 프로젝트입니다. 
-    SSR, CSR, SSG를 조합하여 이머스를 구축하였으며,
-    Next.js(13~14) 숙련도 향상과 함께 GitLab-Issue 기록,
-    AWS, Docker, GitLab-Runner를 활용한
-    인프라 구성을 목표로 했습니다.
+		description: `파이널 프로젝트에 대한 내용 기입.
     `,
 		skillList: [
 			'React',
@@ -28,6 +24,7 @@ const PROJECT_DATA: Project[] = [
 			'GItlab',
 			'KakaoAPI',
 			'Typescript',
+			//사용 기술 수정 필요
 		],
 		linkList: (
 			<>
@@ -59,13 +56,11 @@ const PROJECT_DATA: Project[] = [
 		detailSrc: '/notion/c82099c04f4540f0817285a224841055',
 	},
 	{
-		title: 'Poje',
+		title: 'Semi 프로젝트',
 		date: '2023.01.15 ~ 2023.03.25',
-		serviceMaintain: '* AWS 기간이 만료되어 운영중이지 않습니다.',
-		description: `포트폴리오를 제작 및 공유하는 프로젝트입니다.
-    로직분리를 위한 Hooks 패턴과 React-Query를 활용한
-    데이터 캐싱을 목표로 했으며, React-Testing-Library를
-    적용하여 테스트코드를 작성했습니다.
+		serviceMaintain: '* AWS 기간이 만료되어 운영중이지 않습니다.(9월까지)',
+		description: `Lms 프로젝트로 대학교를 토대로 Lms를 구현하였습니다.
+		Semi 프로젝트에 관한 내용 기입.
     `,
 		skillList: [
 			'React',
@@ -100,14 +95,10 @@ const PROJECT_DATA: Project[] = [
 		detailSrc: '/notion/POJE-3928923bdf4d4037b6bc585da568208a',
 	},
 	{
-		title: '혼밥메이트',
+		title: '쇼핑몰',
 		serviceMaintain: '* AWS 기간이 만료되어 운영중이지 않습니다.',
 		date: '2022.03 ~ 2022.11',
-		description: `대학교에서 밥을 같이 먹을 사람을 구하는 프로젝트입니다.
-    Soket.io, Stompjs를 활용해서 실시간 위치공유,
-    채팅 기능을 구현했으며, 프로토타입을 위해
-    Express를 활용한 테스트 서버 및 
-    <a href="https://seungyn.github.io/capstonIntroPage/" style="color:#64ffda;" target="_blank">소개 페이지</a>를 제작했습니다.
+		description: `쇼핑몰 프로젝트에 관한 내용 기입.
     `,
 		skillList: [
 			'React',
@@ -153,11 +144,10 @@ const PROJECT_DATA: Project[] = [
 		detailSrc: '/notion/f29afe7d87d44564a7a8f31043b34050',
 	},
 	{
-		title: 'Package',
+		title: '미정',
 		serviceMaintain: '* heroku 기간이 만료되어 운영중이지 않습니다.',
 		date: '2022.02 ~ 2022.3',
-		description: `React와 Express를 학습 후 처음으로 제작한
-    택배 및 등기 관리 프로젝트입니다.
+		description: `추후 기입.
     `,
 		skillList: ['React', 'Express', 'React-Router-Dom', 'Javascript'],
 		linkList: (

@@ -68,7 +68,7 @@ const SkillList = [
 				</IconBackground>
 			),
 			title: 'Javacript',
-			description: '• ES6+ 문법을 활용하여 코드를 작성 할 수 있습니다. ',
+			description: '• Javacript를 활용하여 차트 구현과 웹 페이지 코드를 작성 할 수 있습니다. ',
 		},
 		{
 			SkillIcon: (
@@ -78,7 +78,7 @@ const SkillList = [
 			),
 			title: 'Typescript',
 			description:
-				'• 타입을 활용하여 명확한 코드를 작성할 수 있으며, 제네릭, 인덱싱, 유틸리티 타입을 사용할 수 있습니다.',
+				'• 타입을 활용하여 기본적인 코드를 작성할 수 있습니다.',
 		},
 		{
 			SkillIcon: (
@@ -88,7 +88,7 @@ const SkillList = [
 			),
 			title: 'Java',
 			description:
-				'• 학부생시절 재밌게 배웠던 언어이며, 2~3학년 동안 자바로 과제나, 프로그램을 작성했습니다.',
+				'• 학원에서 교육받으면서 처음으로 배운 언어이며, 6개월간 자바를 통해서 과제나, 프로그램을 만들었습니다.',
 		},
 	],
 	[
@@ -100,7 +100,7 @@ const SkillList = [
 			),
 			title: 'React',
 			description:
-				'• 리액트로 여러 프로젝트를 해봤으며, ContextAPI, useReducer, useState, useCallBack, useMemo, Suspense를 활용 할 수 있습니다.',
+				'• 최근에 마지막으로 진행한 프로젝트에서 리엑트를 활용해 페이지를 구현했습니다.',
 		},
 		{
 			SkillIcon: (
@@ -109,128 +109,11 @@ const SkillList = [
 				</IconBackground>
 			),
 			title: 'NextJS',
-			description: `• 상황별로 SSG, SSR, CSR를 활용할 수 있습니다. 
-			• middleware와 API를 작성할 수 있습니다.
+			description: `• 기본. 
+			• NextJS를 사용해 기본적인 코드를 작성할 수 있습니다.
 			`,
 		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<AxiosIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'Axios',
-			description: `• interceptors를 이용하여 에러와, 요청 전처리를 할 수 있습니다.
-			• 재요청 로직을 프로젝트에 적용한 경험이 있습니다.
-			`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<TailWindIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'TailwindCSS',
-			description: `• 최근 즐겨 사용하고 있습니다. 프로젝트에 적용한 경험이 있습니다.`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<PostCSSIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'PostCSS',
-			description: '• CSS 모듈을 활용하여 CSS 작성하는 것을 좋아합니다.',
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<ReactQueryIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'TanstackQuery(ReactQuery) v3~5',
-			description: `• API 로직 분리와 캐싱을 위해 사용해 왔으며, 프로젝트 적용 전 변경사항을 확인하며 적용해오고 있습니다.
-				• SuspenseQuery, OptimisticUpdate를 활용할 수 있습니다.
-				`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<div className="relative h-16 w-16 max-md:h-10 max-md:w-10">
-						<Image
-							src="/assets/skills/icons/front/zustand-icon.png"
-							fill
-							alt="zustand image"
-						/>
-					</div>
-				</IconBackground>
-			),
-			title: 'Zustand',
-			description: `• 최근 프로젝트에 전역 상태 관리를 위해 사용한 경험이 있습니다.
-				• localStorage와 연동, reducer형태로 적용한 경험이 있습니다.
-				`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<RecoilIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'Recoil',
-			description: `• 프로젝트에 전역 상태 관리를 위해 사용한 경험이 있습니다.
-				• localStorageEffect를 이용하여 localStorage와 연동한 경험이 있습니다.
-				`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<ReduxIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'Redux',
-			description:
-				'• 프로젝트에 적용한 경험이 없지만, 혼자 리덕스가 무엇인지 알기 위해 사용해본 경험이 있습니다.',
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<ReactRouterIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'React-Router-Dom v6',
-			description: `• SPA 프로젝트의 네비게이션을 위해 적용한 경험이 있습니다.`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<JestIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'Jest',
-			description: `• React-Testing-Libary를 사용하기 위해 학습한 경험이 있습니다.`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<TestingLibraryIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'React-Testing-Libary',
-			description: `• React-Testing-Libary를 사용하여 프로젝트에 적용한 경험이 있습니다.
-			• 전체를 테스트 하지 않았지만, 어떻게 사용하는지를 알게되었습니다.
-			`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<PlaywrightIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'PlayWright',
-			description: `• 최근 프로젝트의 테스트를 눈으로 확인하며 하려고 사용해봤습니다.
-			• 조금씩 적용하고 있습니다.
-			`,
-		},
+		
 	],
 	[
 		{
@@ -250,7 +133,7 @@ const SkillList = [
 				</IconBackground>
 			),
 			title: 'Spring-Boot',
-			description: `• 프로젝트에 사용한 경험은 없지만, 스프링부트가 무엇이고 어떻게 사용하는지 궁금해서 강의나 책을 보며 따라 해 본 경험이 있습니다.
+			description: `• 파이널 프로젝트에서 Spring-Boot를 통해서 코드작업을 했고, Spring-Boot가 어떻게 쓰이는지와 MVC패턴에 대해 숙지하고 있습니다 .
 		`,
 		},
 	],
@@ -261,32 +144,12 @@ const SkillList = [
 					<MysqlIcon className={styles.svg} />
 				</IconBackground>
 			),
-			title: 'Mysql',
-			description: `• 학부생 시절 배운 적이 있습니다.
+			title: 'mariDB',
+			description: `• 프로젝트의 대부분을 mariDB로 진행하였습니다.
 	`,
 		},
 	],
 	[
-		{
-			SkillIcon: (
-				<IconBackground>
-					<AwsEc2Icon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'AWS-EC2',
-			description: `• NextJS 프로젝트를 EC2에 배포해 본 경험이 있습니다.
-`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<AwsS3Icon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'AWS-S3',
-			description: `• React 프로젝트를 S3에 배포해 본 경험이 있습니다..
-`,
-		},
 		{
 			SkillIcon: (
 				<IconBackground>
@@ -305,36 +168,6 @@ const SkillList = [
 			),
 			title: 'Git',
 			description: `• 코드 저장과 버전 기록을 위해 사용했습니다.
-			`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<GithubIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'Github',
-			description: `• 외부 저장과 협업을 위해 사용하였습니다.
-			`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<Gitlab className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'Gitlab',
-			description: `• 외부 저장과 협업을 위해 사용하였습니다.
-			`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<NetilifyIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'Netlify',
-			description: `• React 프로젝트를 배포해 본 경험이 있습니다.
 			`,
 		},
 		{
@@ -381,23 +214,5 @@ export default function SkillContent({ categoryIndex }: Props) {
 		</div>
 	));
 
-	// <div>
-	//   <h3 className='text-xl font-semibold text-lightest-slate leading-10'>
-	//     Skill Stack <span className='text-green'>@ FrontEnd</span>
-	//   </h3>
-	//   <ul>
-	//     <li className='flex'>
-	//       <IconBackground>
-	//         <AxiosIcon width={60} height={60} />
-	//       </IconBackground>
-	//       <p>
-	//         아무 텍스트를 적는 중 이에용 어나날안녕상 가나다라도란ㅁ
-	//         소ㅠㅈㄷ소ㅠㅑ
-	//       </p>
-	//     </li>
-	//     <li>
-	//       <ReactIcon width={60} height={60} />
-	//     </li>
-	//   </ul>
-	// </div>
+	// 추가된 스킬이나 빼야할 스킬들은 차후에 수정 바람.
 }

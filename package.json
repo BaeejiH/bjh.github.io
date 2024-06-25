@@ -10,7 +10,8 @@
 		"start": "next start",
 		"lint": "next lint",
 		"format": "prettier . --write",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"vercel-deploy":"vercel"
 	},
 	"dependencies": {
 		"@plaiceholder/next": "^3.0.0",

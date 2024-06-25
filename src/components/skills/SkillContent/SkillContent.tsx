@@ -61,15 +61,7 @@ const SkillList = [
 			title: 'CSS',
 			description: '• 순수 CSS만을 이용하여 레이아웃을 할 수 있습니다.',
 		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<JavscriptIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'Javacript',
-			description: '• Javacript를 활용하여 차트 구현과 웹 페이지 코드를 작성 할 수 있습니다. ',
-		},
+	
 		{
 			SkillIcon: (
 				<IconBackground>
@@ -80,16 +72,7 @@ const SkillList = [
 			description:
 				'• 타입을 활용하여 기본적인 코드를 작성할 수 있습니다.',
 		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<JAVAIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'Java',
-			description:
-				'• 학원에서 교육받으면서 처음으로 배운 언어이며, 6개월간 자바를 통해서 과제나, 프로그램을 만들었습니다.',
-		},
+		
 	],
 	[
 		{
@@ -119,16 +102,6 @@ const SkillList = [
 		{
 			SkillIcon: (
 				<IconBackground>
-					<ExpressIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'Express',
-			description: `• React와 Express를 학습 후 첫 간단한 프로젝트의 백엔드 프레임워크로 사용한 경험이 있습니다.
-		`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
 					<SpringIcon className={styles.svg} />
 				</IconBackground>
 			),
@@ -136,6 +109,26 @@ const SkillList = [
 			description: `• 파이널 프로젝트에서 Spring-Boot를 통해서 코드작업을 했고, Spring-Boot가 어떻게 쓰이는지와 MVC패턴에 대해 숙지하고 있습니다 .
 		`,
 		},
+		{
+			SkillIcon: (
+				<IconBackground>
+					<JAVAIcon className={styles.svg} />
+				</IconBackground>
+			),
+			title: 'Java',
+			description:
+				'• 학원에서 교육받으면서 처음으로 배운 언어이며, 6개월간 자바를 통해서 과제나, 프로그램을 만들었습니다.',
+		},
+		{
+			SkillIcon: (
+				<IconBackground>
+					<JavscriptIcon className={styles.svg} />
+				</IconBackground>
+			),
+			title: 'Javacript',
+			description: '• Javacript를 활용하여 차트 구현과 웹 페이지 코드를 작성 할 수 있습니다. ',
+		},
+		
 	],
 	[
 		{

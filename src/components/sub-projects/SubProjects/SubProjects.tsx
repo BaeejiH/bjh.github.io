@@ -21,25 +21,21 @@ const SUB_PROJECTS: SubProject[] = [
 				target="_blank"
 				className="static before:absolute before:left-0 before:top-0 before:z-0 before:h-full before:w-full before:content-['']"
 			>
-				SeYn Portfolio
+				bjh Portfolio
 			</a>
 		),
-		links: { git: 'https://github.com/SeungYn/My-Portfolio' },
-		description: `<a href="https://github.com/bchiang7" target="_blank" style="color:#64ffda; z-index:30;">
+		links: { git: 'https://github.com/BaeejiH/bjh.github.io' },
+		description: `<a href="https://github.com/bchiang7/v4" target="_blank" style="color:#64ffda; z-index:30;">
     Brittany Chiang</a>의 포트폴리오 디자인을 참고하여 포트폴리오를 제작했습니다.`,
 		skills: ['NextJS v14', 'TailwindCSS', 'React-Notion-X'],
 	},
 	{
 		title: (
-			<a
-				href="https://github.com/wanted-pre-onboarding-internship-1team"
-				target="_blank"
-				className="static before:absolute before:left-0 before:top-0 before:z-0 before:h-full before:w-full before:content-['']"
-			>
+			<a>
 				Diary Project
 			</a>
 		),
-		links: { git: 'https://github.com/wanted-pre-onboarding-internship-1team' },
+		links: { git: 'https://github.com/BaeejiH/diary' },
 		description: `자바를 배우고 난 뒤에 처음 구현해본 프로젝트입니다. jsp를 통해서 달력을 만들었고,
 		달력에 필요한 Css를 부트스트랩을 통해 구현해 보았습니다 .`,
 		skills: ['Java'],

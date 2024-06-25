@@ -9,33 +9,27 @@ import { SectionID } from '@/constant/sectionId';
 const PROJECT_DATA: Project[] = [
 	{
 		title: 'Final 프로젝트',
-		date: '2023.10.16 ~ 2024.01.05',
+		date: '2024.07 ~ 2024.08',
 		serviceMaintain: '',
 		description: `파이널 프로젝트에 대한 내용 기입.
     `,
 		skillList: [
-			'React',
-			'NextJS v14',
-			'TailwindCSS',
-			'React-Query v5',
-			'Zustand',
-			'Nginx',
+			'Spring Boot',
+			'Java Script',
+			'jQuery',
+			'MariaDB',
 			'Docker',
-			'GItlab',
-			'KakaoAPI',
-			'Typescript',
+			'GItHub',
+			'API',
 			//사용 기술 수정 필요
 		],
 		linkList: (
 			<>
 				<Link
-					href={'https://gitlab.com/commerce9235338/emmerce-web'}
+					href={'https://github.com/BaeejiH/Final-p'}
 					target="_blank"
 				>
 					<GitHubIcon size={20} />
-				</Link>
-				<Link href={'https://emmerce1.duckdns.org/'} target="_blank">
-					<ShareIcon size={20} />
 				</Link>
 			</>
 		),
@@ -47,7 +41,7 @@ const PROJECT_DATA: Project[] = [
 				className="relative"
 			>
 				<Image
-					src="/assets/project-images/emmerce-main.png"
+					src="/assets/project-images/no.PNG"
 					fill
 					alt="이미지"
 				/>
@@ -57,29 +51,25 @@ const PROJECT_DATA: Project[] = [
 	},
 	{
 		title: 'Semi 프로젝트',
-		date: '2023.01.15 ~ 2023.03.25',
+		date: '2024.05 ~ 2024.06',
 		serviceMaintain: '* AWS 기간이 만료되어 운영중이지 않습니다.(9월까지)',
 		description: `Lms 프로젝트로 대학교를 토대로 Lms를 구현하였습니다.
 		Semi 프로젝트에 관한 내용 기입.
     `,
 		skillList: [
-			'React',
-			'React-Query v4',
-			'Recoil',
-			'AWS S3',
-			'React-Testing-Library',
-			'React-Router-Dom v6',
-			'GitHub Actions',
-			'Typescript',
+			'Eclipse',
+			'Java',
+			'MariaDB',
+			'AWS',
+			'HTML5',
+			'GitHub',
 		],
 		linkList: (
 			<>
-				<Link href={'https://github.com/SeungYn/poje-frontend'} target="_blank">
+				<Link href={'https://github.com/semi-E/semi-E'} target="_blank">
 					<GitHubIcon size={20} />
 				</Link>
-				<Link href={'https://poje-frontend.vercel.app/'} target="_blank">
-					<ShareIcon size={20} />
-				</Link>
+				
 			</>
 		),
 
@@ -89,7 +79,7 @@ const PROJECT_DATA: Project[] = [
 				target="_blank"
 				className="relative"
 			>
-				<Image src="/assets/project-images/poje-main.png" fill alt="이미지" />
+				<Image src="/assets/project-images/semi-main.PNG" fill alt="이미지" />
 			</Link>
 		),
 		detailSrc: '/notion/POJE-3928923bdf4d4037b6bc585da568208a',
@@ -97,33 +87,21 @@ const PROJECT_DATA: Project[] = [
 	{
 		title: '쇼핑몰',
 		serviceMaintain: '* AWS 기간이 만료되어 운영중이지 않습니다.',
-		date: '2022.03 ~ 2022.11',
+		date: '2024.04 ~ 2022.05',
 		description: `쇼핑몰 프로젝트에 관한 내용 기입.
     `,
 		skillList: [
-			'React',
-			'React-router-dom',
-			'ContextAPI',
-			'StompJS',
-			'Socket.io',
-			'Express',
-			'Mysql',
-			'KakaoMapAPI',
-			'Javascript',
+			'jsp',
+			'Java',
+			'MariaDB',
 		],
 		linkList: (
 			<>
 				<Link
-					href={'https://github.com/SeungYn/capstonClientBySpring'}
+					href={'https://github.com/BaeejiH/shop'}
 					target="_blank"
 				>
 					<GitHubIcon size={20} />
-				</Link>
-				<Link
-					href={'https://seungyn.github.io/capstonClientBySpring/'}
-					target="_blank"
-				>
-					<ShareIcon size={20} />
 				</Link>
 			</>
 		),
@@ -135,7 +113,7 @@ const PROJECT_DATA: Project[] = [
 				className="relative"
 			>
 				<Image
-					src="/assets/project-images/babmate-main.png"
+					src="/assets/project-images/shop-main.PNG"
 					fill
 					alt="이미지"
 				/>
@@ -143,42 +121,7 @@ const PROJECT_DATA: Project[] = [
 		),
 		detailSrc: '/notion/f29afe7d87d44564a7a8f31043b34050',
 	},
-	{
-		title: '미정',
-		serviceMaintain: '* heroku 기간이 만료되어 운영중이지 않습니다.',
-		date: '2022.02 ~ 2022.3',
-		description: `추후 기입.
-    `,
-		skillList: ['React', 'Express', 'React-Router-Dom', 'Javascript'],
-		linkList: (
-			<>
-				<Link
-					href={'https://github.com/SeungYn/capstonClientBySpring'}
-					target="_blank"
-				>
-					<GitHubIcon size={20} />
-				</Link>
-				<Link href={'https://hspackges.netlify.app/'} target="_blank">
-					<ShareIcon size={20} />
-				</Link>
-			</>
-		),
-
-		ImgComponent: (
-			<Link
-				href={'https://hspackges.netlify.app/'}
-				target="_blank"
-				className="relative"
-			>
-				<Image
-					src="/assets/project-images/hanshin-main.png"
-					fill
-					alt="이미지"
-				/>
-			</Link>
-		),
-		detailSrc: '/notion/a4927aec9b72434db112ec0ade9c2327',
-	},
+	
 ];
 
 export default function MainProjects() {

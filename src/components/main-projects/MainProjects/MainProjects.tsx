@@ -36,7 +36,7 @@ const PROJECT_DATA: Project[] = [
 
 		ImgComponent: (
 			<Link
-				href={'https://emmerce1.duckdns.org/'}
+				href={''} //파이널 배포 링크
 				target="_blank"
 				className="relative"
 			>
@@ -47,7 +47,7 @@ const PROJECT_DATA: Project[] = [
 				/>
 			</Link>
 		),
-		detailSrc: '/notion/c82099c04f4540f0817285a224841055',
+		detailSrc: '/notion//Final-project-f738c38ac46a439ca551e1d3397fd245?pvs=4', // 파이널 노션 링크 수정
 	},
 	{
 		title: 'Semi 프로젝트',
@@ -75,14 +75,14 @@ const PROJECT_DATA: Project[] = [
 
 		ImgComponent: (
 			<Link
-				href={'https://poje-frontend.vercel.app/'}
+				href={''} // 세미 배포 링크
 				target="_blank"
 				className="relative"
 			>
 				<Image src="/assets/project-images/semi-main.PNG" fill alt="이미지" />
 			</Link>
 		),
-		detailSrc: '/notion/POJE-3928923bdf4d4037b6bc585da568208a',
+		detailSrc: '/notion//Semi-project-071f8bc62c894a588fc97a746257ffec?pvs=4', // 세미 노션 링크 수정
 	},
 	{
 		title: '쇼핑몰',
@@ -108,7 +108,7 @@ const PROJECT_DATA: Project[] = [
 
 		ImgComponent: (
 			<Link
-				href={'https://seungyn.github.io/capstonClientBySpring/'}
+				href={''}  //shop 배포 링크
 				target="_blank"
 				className="relative"
 			>
@@ -119,7 +119,7 @@ const PROJECT_DATA: Project[] = [
 				/>
 			</Link>
 		),
-		detailSrc: '/notion/f29afe7d87d44564a7a8f31043b34050',
+		detailSrc: '/notion//Shop-project-fdcac4970a6449e1bdf20fa6004f762a?pvs=4', // Shop 노션 링크 수정
 	},
 	
 ];

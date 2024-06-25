@@ -29,7 +29,7 @@ import SpringIcon from '/public/assets/skills/icons/back/spring-icon.svg';
 import ExpressIcon from '/public/assets/skills/icons/back/express.svg';
 
 //database svg
-import MysqlIcon from '/public/assets/skills/icons/database/mysql-icon.svg';
+import MariaDBIcon from '/public/assets/skills/icons/database/mysql-icon.svg';
 
 //etc svg
 import AwsEc2Icon from '/public/assets/skills/icons/etc/aws-ec2.svg';
@@ -134,11 +134,11 @@ const SkillList = [
 		{
 			SkillIcon: (
 				<IconBackground>
-					<MysqlIcon className={styles.svg} />
+					<MariaDBIcon className={styles.svg} />
 				</IconBackground>
 			),
-			title: 'mariDB',
-			description: `• 프로젝트의 대부분을 mariDB로 진행하였습니다.
+			title: 'mariaDB',
+			description: `• 프로젝트의 대부분을 mariaDB로 진행하였습니다.
 	`,
 		},
 	],
@@ -161,16 +161,6 @@ const SkillList = [
 			),
 			title: 'Git',
 			description: `• 코드 저장과 버전 기록을 위해 사용했습니다.
-			`,
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
-					<VercelIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'Vercel',
-			description: `• NextJS 프로젝트를 배포해 본 경험이 있습니다.
 			`,
 		},
 	],

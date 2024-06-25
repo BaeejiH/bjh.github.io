@@ -21,7 +21,7 @@ export default function Introduce() {
 			transition={{ staggerChildren: 0.2, delayChildren: 0.6 }}
 		>
 			<motion.h1 className="pb-8 text-2xl text-green" variants={FadeUp}>
-				안녕하세요. 저는 웹 개발자
+				안녕하세요. 저는 웹 백엔드 개발자
 			</motion.h1>
 			<motion.h2
 				className="pb-6 text-6xl font-bold text-lightest-slate"

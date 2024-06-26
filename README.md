@@ -13,19 +13,7 @@
    npm i
    ```
 
-2. .env 파일 생성
-
-   ```sh
-   # nodemailer
-   AUTH_USER=yourmail
-   AUTH_PASS=your token or password
-   NODEMAILER_PORT= nodemailer port
-
-   # Google analytics
-   G_ID=your ga ID
-   ```
-
-3. 로컬 실행
+2. 로컬 실행
 
    ```sh
    npm run dev

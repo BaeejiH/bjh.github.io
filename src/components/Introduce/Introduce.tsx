@@ -27,7 +27,7 @@ export default function Introduce() {
 				className="pb-6 text-6xl font-bold text-lightest-slate"
 				variants={FadeUp}
 			>
-				배지훈입니다.
+				"배지훈"입니다.
 			</motion.h2>
 			<motion.h2 className="pb-8 text-6xl font-bold" variants={FadeUp}>
 				

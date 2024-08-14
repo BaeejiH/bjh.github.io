@@ -8,10 +8,11 @@ import { SectionID } from '@/constant/sectionId';
 
 const PROJECT_DATA: Project[] = [
 	{
-		title: 'Final 프로젝트',
+		title: 'Movie 프로젝트',
 		date: '2024.07 ~ 2024.08',
 		serviceMaintain: '',
-		description: `파이널 프로젝트에 대한 내용 기입.
+		description: `Spring boot를 통해서 구현한 영화 대여사이트 프로젝트 입니다. 회원들이 자유롭게 영화 대여사이트를 통해서 영화를 대여하고 반납할 수 있게했고,주요 기능으로는 즐겨찾기와 리뷰,영화에 대한 댓글을 다는 기능이 있습니다. 
+					  AWS에 도커를 통해서 배포하였습니다.	
     `,
 		skillList: [
 			'Spring Boot',
@@ -20,7 +21,6 @@ const PROJECT_DATA: Project[] = [
 			'MariaDB',
 			'Docker',
 			'GItHub',
-			'API',
 			//사용 기술 수정 필요
 		],
 		linkList: (
@@ -36,12 +36,12 @@ const PROJECT_DATA: Project[] = [
 
 		ImgComponent: (
 			<Link
-				href={''} //파이널 배포 링크
+				href={'http://13.209.213.177/Final/public/login'} //파이널 배포 링크
 				target="_blank"
 				className="relative"
 			>
 				<Image
-					src="/assets/project-images/no.PNG"
+					src="/assets/project-images/Final-main.PNG"
 					fill
 					alt="이미지"
 				/>
@@ -50,11 +50,15 @@ const PROJECT_DATA: Project[] = [
 		detailSrc: '/notion//Final-project-f738c38ac46a439ca551e1d3397fd245?pvs=4', // 파이널 노션 링크 수정
 	},
 	{
-		title: 'Semi 프로젝트',
+		title: 'LMS 프로젝트',
 		date: '2024.05 ~ 2024.06',
-		serviceMaintain: '* AWS 기간이 만료되어 운영중이지 않습니다.(9월까지)',
-		description: `Lms 프로젝트로 대학교를 토대로 Lms를 구현하였습니다.
-		Semi 프로젝트에 관한 내용 기입.
+		serviceMaintain: '* AWS 기간이 9월까지 입니다.',
+		description: `Eclipse를 통해서 구현한 대학교 Lms 프로젝트 입니다. 
+					  대부분 학교에서 쓰는 LMS처럼 학생과 교수 그리고 
+					  관리자를 나누었고, 주요 기능으로는 학생 수업에 따른
+					  시간표 구현 및 강의 등록이 있습니다. 
+					  대학교 LMS와 비슷하게 구현하는것을 목표로 했고,
+					  AWS에 도커를 통해서 배포하였습니다.				
     `,
 		skillList: [
 			'Eclipse',
@@ -75,7 +79,7 @@ const PROJECT_DATA: Project[] = [
 
 		ImgComponent: (
 			<Link
-				href={''} // 세미 배포 링크
+				href={'http://13.209.213.177/lms/loginForm.jsp'} // 세미 배포 링크
 				target="_blank"
 				className="relative"
 			>
@@ -85,10 +89,13 @@ const PROJECT_DATA: Project[] = [
 		detailSrc: '/notion//Semi-project-071f8bc62c894a588fc97a746257ffec?pvs=4', // 세미 노션 링크 수정
 	},
 	{
-		title: '쇼핑몰',
+		title: '쇼핑몰 프로젝트',
 		serviceMaintain: '* AWS 기간이 만료되어 운영중이지 않습니다.',
 		date: '2024.04 ~ 2022.05',
-		description: `쇼핑몰 프로젝트에 관한 내용 기입.
+		description: `Eclipse를 통해 간단하게 만들어본 쇼핑몰 프로젝트입니다.
+					  여러가지 기능을 구현하기 보다는 쇼핑몰 사이트의 
+					  기본적인 기능과 화면을 만드는 것을 목표로 했습니다.
+					  
     `,
 		skillList: [
 			'jsp',

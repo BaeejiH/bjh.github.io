@@ -78,16 +78,6 @@ const SkillList = [
 		{
 			SkillIcon: (
 				<IconBackground>
-					<ReactIcon className={styles.svg} />
-				</IconBackground>
-			),
-			title: 'React',
-			description:
-				'• 최근에 마지막으로 진행한 프로젝트에서 리엑트를 활용해 페이지를 구현했습니다.',
-		},
-		{
-			SkillIcon: (
-				<IconBackground>
 					<NextJSIcon className={styles.svg} />
 				</IconBackground>
 			),
@@ -151,6 +141,7 @@ const SkillList = [
 			),
 			title: 'Docker',
 			description: `• NextJS 프로젝트를 Docker 파일을 작성하여 배포해 본 경험이 있습니다.
+						  • Spring boot 프로젝트를 AWS안에 도커를 통해서 배포해 본 경험이 있습니다.
 `,
 		},
 		{

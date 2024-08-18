@@ -27,8 +27,6 @@ export default function Confeti() {
     [],
   );
 
-  useEffect(() => fire(), []);
-
   const fire = useCallback(() => {
     makeShot(0.25, {
       spread: 26,
@@ -56,7 +54,12 @@ export default function Confeti() {
       spread: 120,
       startVelocity: 45,
     });
-  }, [makeShot]);
+  }, [makeShot]); // fire 의존성 배열에 makeShot 추가
+
+  useEffect(() => {
+    fire(); // fire 함수가 변경될 때마다 실행되도록
+  }, [fire]); // useEffect의 의존성 배열에 fire 추가
+
   return (
     <ReactCanvasConfetti
       onInit={getInstance}

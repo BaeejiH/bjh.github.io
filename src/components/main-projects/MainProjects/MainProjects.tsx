@@ -95,7 +95,6 @@ const PROJECT_DATA: Project[] = [
 		description: `Eclipse를 통해 간단하게 만들어본 쇼핑몰 프로젝트입니다.
 					  여러가지 기능을 구현하기 보다는 쇼핑몰 사이트의 
 					  기본적인 기능과 화면을 만드는 것을 목표로 했습니다.
-					  
     `,
 		skillList: [
 			'jsp',

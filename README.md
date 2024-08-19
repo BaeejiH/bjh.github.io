@@ -18,6 +18,7 @@
    ```sh
    npm run dev
    ```
+   
 3. "sharp" module error가 발생할 때
 
    ```sh

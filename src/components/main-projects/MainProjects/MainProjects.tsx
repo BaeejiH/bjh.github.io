@@ -104,7 +104,7 @@ const PROJECT_DATA: Project[] = [
 		linkList: (
 			<>
 				<Link
-					href={'https://github.com/BaeejiH/shop'}
+					href={''}
 					target="_blank"
 				>
 					<GitHubIcon size={20} />
@@ -114,7 +114,7 @@ const PROJECT_DATA: Project[] = [
 
 		ImgComponent: (
 			<Link
-				href={''}  //shop 배포 링크
+				href={'http://13.209.213.177/test/'}  //shop 배포 링크
 				target="_blank"
 				className="relative"
 			>

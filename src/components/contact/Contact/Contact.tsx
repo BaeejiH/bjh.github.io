@@ -53,7 +53,7 @@ export default function Contact() {
 					<strong>Email:</strong> bjihun0511@gmail.com
 				</div>
 				<div className="mb-4">
-					<strong>Phone:</strong> 010-1111-1111
+					<strong>Phone:</strong> 010-2217-1311
 				</div>
 				<div>
 					<strong>Github:</strong> <a href="https://github.com/BaeejiH" target="_blank">https://github.com/BaeejiH</a>

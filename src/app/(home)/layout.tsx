@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 		title: '백엔드 배지훈 | 포트폴리오',
 		type: 'website',
 		siteName: 'Bae ji hun',
-		images: '/assets/og/metaB.png',
+		images: '/assets/og/metaB.PNG',
 	},
 };
 

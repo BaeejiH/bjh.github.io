@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const domain = 'https://seungyn.com';
+const domain = 'https://bjh-github-io.vercel.app/';
 
 export default function sitemap(): MetadataRoute.Sitemap {
 	return [

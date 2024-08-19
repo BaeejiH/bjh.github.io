@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
 			userAgent: '*',
 			allow: '/',
 		},
-		sitemap: 'https://seungyn.com/sitemap.xml',
+		sitemap: 'https://bjh-github-io.vercel.app/',
 	};
 }

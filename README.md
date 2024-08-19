@@ -18,3 +18,8 @@
    ```sh
    npm run dev
    ```
+3. "sharp" module error가 발생할 때
+
+   ```sh
+   npm install --platform=linux --arch=x64 sharp
+   ```   

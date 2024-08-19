@@ -37,6 +37,7 @@ export const metadata: Metadata = {
 		type: 'website',
 		siteName: 'Bae ji hun',
 		images: 'https://bjh-github-io.vercel.app/assets/og/metaB.PNG',
+		// meta data 절대경로 설정 한 후에 배포 링크에 변경 성공.
 	},
 };
 

@@ -154,6 +154,11 @@ const SkillList = [
 			description: `• 코드 저장과 버전 기록을 위해 사용했습니다.
 			`,
 		},
+
+
+
+
+		
 	],
 ];
 
